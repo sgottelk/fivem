@@ -14,7 +14,9 @@
             "customWebpackConfig": {
               "path": "./webpack-overrides.config.js",
               "replaceDuplicatePlugins": true,
-              "mergeStrategies": { "module.rules": "prepend" }
+              "mergeStrategies": {
+                "module.rules": "prepend"
+              }
             },
             "outputPath": "dist",
             "index": "src/index.html",
@@ -185,5 +187,8 @@
     "@schematics/angular:directive": {
       "prefix": "app"
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
