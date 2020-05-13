@@ -11,7 +11,7 @@ import { GameService } from '../../game.service';
 
 import { isPlatformBrowser } from '@angular/common';
 
-import { Observable } from 'rxjs/observable';
+import { Observable } from 'rxjs';
 
 import 'rxjs/add/operator/bufferTime';
 
